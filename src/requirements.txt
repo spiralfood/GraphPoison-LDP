@@ -1,0 +1,5 @@
+networkx
+numpy
+scipy
+scikit-learn
+python-louvain

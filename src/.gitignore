@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.backup
+.env
+.env.*
+*.pem
+*.key
+
+results_backup/
+reconstructed_graph/
+HMG_FakeNode_Merged/
+HMG_attack/
+output_py/
+target_nodes_record/
+FakeNodeID/
+attack_gain_results/
+original_vs_attack_gain_results/
+hmg_average_degrees/
+
+# Keep data acquisition instructions, but do not publish raw datasets by default.
+dataset/**
+!dataset/**/
+!dataset/**/*.md
